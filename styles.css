@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(0, 217, 255);
+}
+
+.container {
+max-width: 75rem;
+min-height: 10rem;
+margin: auto;
+background-color: white;
+padding: 1rem;
+}
+
+
+#pageheader {
+background-color: rgb(252, 255, 68);
+min-height:auto;
+padding: .25rem;
+}
+
+#logo
+{
+    background-image:url(Images/scooby.png);
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 1px solid none;
+
+}
+
+#pageheader .container
+{
+
+    min-height: auto;
+}
+
+#pageheader nav {
+    text-align: center;
+}
+
+#media {
+background-color: rgb(0, 166, 221);
+min-height: 10rem;
+padding: 1rem;
+    background-image: url(Images/heroimage.png);
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+}
+
+#career {
+background-color: rgb(255, 255, 105);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagecontent {
+background-color: rgb(5, 193, 210);
+min-height: 10rem;
+padding: 1rem;
+}
+
+blockquote{
+    background-color:none;
+    padding:1rem;
+    width:50%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:darkblue;
+}
+blockquote + span
+{
+    background-color:none;
+    padding:1rem;
+    display:block;
+    width:50%;
+    margin:0 auto;
+    text-align: right;
+    font-size: 1.25rem;
+}
+
+
+#semester1 {
+background-color: rgb(226, 255, 6);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester2 {
+background-color: rgb(19, 113, 163);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagefooter {
+background-color: rgb(31, 79, 170);
+min-height:auto;
+padding: 1rem;
+}
+
+#pagefooter .container {
+    min-height: auto;
+    text-align: center;
+}
+
+#subfooter {
+background-color: rgb(0, 50, 90);
+min-height: 10rem;
+padding: 1rem;
+text-align: center;
+}
+
+audio {
+border: 5px solid steelblue;
+background-color: rgb(70, 132, 182);
+display: block;
+margin: auto;
+}
