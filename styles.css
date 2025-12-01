@@ -105,6 +105,18 @@ padding: 1rem;
     text-align: center;
 }
 
+#aifooter{
+    padding: 1rem;
+    background-color:lightseagreen;
+    min-height:auto;
+}
+
+#aifooter .container
+{
+    min-height: auto; 
+    text-align: center;   
+}
+
 #subfooter {
 background-color: rgb(0, 50, 90);
 min-height: 10rem;
