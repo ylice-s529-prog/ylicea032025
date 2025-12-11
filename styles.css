@@ -141,8 +141,4 @@ margin: auto;
     #pagecontent{
         background-color:rgb(2, 2, 79);
     }
-
-    #media {
-        max-height: 500px;
-    }
 }
