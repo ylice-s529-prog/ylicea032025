@@ -130,3 +130,19 @@ background-color: rgb(70, 132, 182);
 display: block;
 margin: auto;
 }
+
+@media screen and (min-width:650px){
+    #pagecontent{
+        background-color:blue;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    #pagecontent{
+        background-color:rgb(2, 2, 79);
+    }
+
+    #media {
+        max-height: 500px;
+    }
+}
