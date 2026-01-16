@@ -40,6 +40,24 @@ padding: .25rem;
     text-align: center;
 }
 
+#pageheader nav ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#pageheader nav ul li{
+    border:2px solid silver;
+    padding: 1rem;
+    background-color:rgb(28, 255, 255);
+    margin: 2px;
+}
+
+#pageheader nav ul li:hover {
+    background-color:blue;
+}
+
 #media {
 background-color: rgb(0, 166, 221);
 min-height: 10rem;
@@ -131,14 +149,25 @@ display: block;
 margin: auto;
 }
 
-@media screen and (min-width:650px){
+@media screen and (min-width:950px){
+    #pageheader nav ul
+    {
+        background-color:none;
+        margin-top: 2rem;
+    }
+
+    #pageheader nav ul li
+    {
+        display:inline-block;
+    }
+
     #pagecontent{
         background-color:blue;
     }
 }
 
 @media screen and (min-width:1000px) {
-    #pagecontent{
+    #career{
         background-color:rgb(2, 2, 79);
     }
 }
