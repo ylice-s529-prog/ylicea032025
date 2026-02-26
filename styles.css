@@ -1,173 +1,172 @@
-html{
-    scroll-behavior: smooth;
+/* Mobile styles */
+:root {
+  --primary-color: #1dbbaf;
+  --secondary-color: #c2c83b;
+  --tertiary_color: #f47920;
+  --main-font: arial;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-background-color: rgb(0, 217, 255);
+  background-color: var(--primary-color);
 }
 
 .container {
-max-width: 75rem;
-min-height: 10rem;
-margin: auto;
-background-color: white;
-padding: 1rem;
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: var(--tertiary_color);
+  padding: 1rem;
 }
-
 
 #pageheader {
-background-color: rgb(252, 255, 68);
-min-height:auto;
-padding: .25rem;
+  background-color: rgb(252, 255, 68);
+  min-height: auto;
+  padding: 0.25rem;
 }
 
-#logo
-{
-    background-image:url(Images/scooby.png);
-    width: 6.25rem;
-    height: 6.25rem;
-    border: 1px solid none;
-
-}
-
-#pageheader .container
-{
-
-    min-height: auto;
+#pageheader .container {
+  min-height: auto;
 }
 
 #pageheader nav {
-    text-align: center;
+  text-align: center;
 }
 
-#pageheader nav ul
-{
-    list-style-type: none;
-    margin:0;
-    padding:0;
+#pageheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-#pageheader nav ul li{
-    border:2px solid silver;
-    padding: 1rem;
-    background-color:rgb(28, 255, 255);
-    margin: 2px;
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 1rem;
+  background-color: rgb(28, 255, 255);
+  margin: 2px;
 }
 
 #pageheader nav ul li:hover {
-    background-color:blue;
+  background-color: blue;
+}
+
+#logo {
+  background-image: url(Images/logo.png);
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 1px solid red;
+  margin: auto;
+  transition: all 2s;
+  background-color: white;
 }
 
 #media {
-background-color: rgb(0, 166, 221);
-min-height: 10rem;
-padding: 1rem;
-    background-image: url(Images/heroimage.png);
-    background-size: cover;
-    aspect-ratio: 16 / 9;
+  background-color: rgb(0, 166, 221);
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/heroimage.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
 }
 
 #career {
-background-color: rgb(255, 255, 105);
-min-height: 10rem;
-padding: 1rem;
+  background-color: rgb(255, 255, 105);
+  min-height: 10rem;
+  padding: 1rem;
 }
 
 #pagecontent {
-background-color: rgb(5, 193, 210);
-min-height: 10rem;
-padding: 1rem;
+  background-color: rgb(5, 193, 210);
+  min-height: 10rem;
+  padding: 1rem;
 }
 
-blockquote{
-    background-color:none;
-    padding:1rem;
-    width:50%;
-    margin: 0 auto;
-    font-size: 1.25rem;
-    font-weight: bold;
-    color:darkblue;
+blockquote {
+  background-color: none;
+  padding: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: darkblue;
 }
-blockquote + span
-{
-    background-color:none;
-    padding:1rem;
-    display:block;
-    width:50%;
-    margin:0 auto;
-    text-align: right;
-    font-size: 1.25rem;
+blockquote + span {
+  background-color: none;
+  padding: 1rem;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 1.25rem;
 }
-
 
 #semester1 {
-background-color: rgb(226, 255, 6);
-min-height: 10rem;
-padding: 1rem;
+  background-color: rgb(226, 255, 6);
+  min-height: 10rem;
+  padding: 1rem;
 }
 
 #semester2 {
-background-color: rgb(19, 113, 163);
-min-height: 10rem;
-padding: 1rem;
+  background-color: rgb(19, 113, 163);
+  min-height: 10rem;
+  padding: 1rem;
 }
 
 #pagefooter {
-background-color: rgb(31, 79, 170);
-min-height:auto;
-padding: 1rem;
+  background-color: rgb(31, 79, 170);
+  min-height: auto;
+  padding: 1rem;
 }
 
 #pagefooter .container {
-    min-height: auto;
-    text-align: center;
+  min-height: auto;
+  text-align: center;
 }
 
-#aifooter{
-    padding: 1rem;
-    background-color:lightseagreen;
-    min-height:auto;
+#aifooter {
+  padding: 1rem;
+  background-color: lightseagreen;
+  min-height: auto;
 }
 
-#aifooter .container
-{
-    min-height: auto; 
-    text-align: center;   
+#aifooter .container {
+  min-height: auto;
+  text-align: center;
 }
 
 #subfooter {
-background-color: rgb(0, 50, 90);
-min-height: 10rem;
-padding: 1rem;
-text-align: center;
+  background-color: rgb(0, 50, 90);
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 audio {
-border: 5px solid steelblue;
-background-color: rgb(70, 132, 182);
-display: block;
-margin: auto;
+  border: 5px solid steelblue;
+  background-color: rgb(70, 132, 182);
+  display: block;
+  margin: auto;
+}
+/* table view */
+@media screen and (min-width: 950px) {
+  #pageheader nav ul {
+    background-color: none;
+    margin-top: 2rem;
+  }
+
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+
+  #pagecontent {
+    background-color: rgb(94, 255, 228);
+  }
 }
 
-@media screen and (min-width:950px){
-    #pageheader nav ul
-    {
-        background-color:none;
-        margin-top: 2rem;
-    }
-
-    #pageheader nav ul li
-    {
-        display:inline-block;
-    }
-
-    #pagecontent{
-        background-color:blue;
-    }
-}
-
-@media screen and (min-width:1000px) {
-    #career{
-        background-color:rgb(2, 2, 79);
-    }
+@media screen and (min-width: 1000px) {
+  #career {
+    background-color: rgb(249, 226, 73);
+  }
 }
