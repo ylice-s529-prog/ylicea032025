@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Menu</title>
+
+    <style>
+      /* Mobile First */
+      html {
+        /* Temporary - delete */
+        height: 200%;
+      }
+      body {
+        background-color: rgb(26, 185, 161);
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* delete me */
+      /* #fblogoheader {
+        background-color: red;
+        padding: 1rem;
+        margin: 1rem;
+      } */
+
+      #pageheader {
+        background-color: rgb(228, 168, 240);
+        padding: 1rem;
+        /* Default */
+        position: static;
+      }
+
+      img#logo {
+        width: 6.25;
+        height: 100px;
+        display: block;
+        margin: auto;
+      }
+      #pageheader h1 {
+        color: rgb(94, 9, 125);
+        text-align: center;
+        /* Remove color */
+        background-color: rgb(170, 25, 227);
+      }
+      #pageheader nav {
+        background-color: blue;
+        padding: 0.5rem;
+        border-radius: 10px;
+      }
+      #pageheader ul {
+        background-color: aquamarine;
+        padding: 0.5rem;
+        list-style-type: none;
+        /* flexbox component */
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      #pageheader li {
+        text-align: center;
+        padding: 0.5rem;
+        background-color: rgb(57, 14, 65);
+        border: 1px solid white;
+      }
+      #pageheader a {
+        color: rgb(251, 58, 241);
+        text-decoration: none;
+      }
+      /* Non #pageheader items */
+      main {
+        padding: 1rem;
+      }
+      h2 {
+        color: white;
+      }
+      p {
+        line-height: 1.5;
+        color: #333;
+      }
+      /* Tablet and Desktop CSS */
+      @media screen and (min-width: 650px) {
+        body {
+          background-color: aquamarine;
+        }
+
+        #pageheader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          /* flexbox component */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        #fblogoheader {
+          /* flexbox component */
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        #pageheader nav {
+          min-width: 400px;
+        }
+
+        #pageheader ul {
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        main {
+          padding-top: 200px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="pageheader">
+      <!-- Start the logo and header -->
+      <div id="fblogoheader">
+        <img id="logo" src="Images/paws_logo.png" alt="Paws Logo" />
+        <h1>Paws and Whiskers</h1>
+      </div>
+      <!-- End the logo and header -->
+
+      <!-- Start navigation -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Pets</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- End navigation -->
+    </header>
+
+    <main>
+      <h2>Fixed Menu</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, vero id.
+        Quisquam quas doloremque consequuntur molestiae. Ipsam velit quam
+        praesentium dolor accusamus deleniti tenetur atque ex amet facere
+        corrupti fugiat provident saepe alias nulla, voluptas recusandae
+        obcaecati hic harum architecto libero distinctio! Similique explicabo
+        quae quibusdam dolore dolor. Facilis modi incidunt delectus nulla quam
+        ad neque deserunt praesentium cum, architecto ipsa culpa velit molestiae
+        omnis beatae repellat consectetur pariatur necessitatibus quaerat odit
+        dicta id aliquam eius a! Voluptates similique sunt beatae illum
+        cupiditate, eius quo quis, ratione incidunt voluptatem vel molestias,
+        nisi nostrum. Quae ea facere obcaecati iure explicabo cupiditate?
+      </p>
+    </main>
+  </body>
+</html>
