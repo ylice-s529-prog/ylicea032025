@@ -16,9 +16,9 @@ I'm a high school student Learning web development. This is my personal portfoli
 - CSS3
 - Git
 - Github
-- photoshop
-- responsive design
+- Photoshop
+- Responsive design
 
 ### Current Projects
 
-- Pets store (Flexbox Pet Store)
+- Hero Image (Hero Image)
